@@ -1,0 +1,2 @@
+# RayMarching Algorithm in Turtle Graphics
+This is a for-fun project I made to see what would happen if I tried to implement the ray marching algorithm to render 3D shapes on Python's turtle graphic library. It is extremely slow as I am controlling the turtle to repeatedly make tiny squre for each pixel on the canvas, but I tried my best to speed the process up by parallel processing. Since my cpu contains 16 cores, I splited up the canvas into 4x4 grid and used Python's multiprocessing library to assign each core to the divided grid cell.
