@@ -5,6 +5,10 @@ This is a rendered image of a simple cube and a sphere.
 
 ![image](https://github.com/user-attachments/assets/08b2091f-a5fd-47c2-8d8f-77332da2914c)
 
+If I was to simply calculate the minimum distance between the two distance functions, I would get this intersection:
+
+![image](https://github.com/user-attachments/assets/0013e2ae-0470-4209-ae4b-102d5398e904)
+
 The surfaces of these shapes are lighted based on light sources I have set up in the scene, and are coloured based on the angle of the surface. And since this scene is rendered using ray marching, I can apply various functions to change how these shapes behave when they intersect with each other. One example is the smoothMin function, which I can apply to smooth out the intersecting edges of the shapes.
 
 ![image](https://github.com/user-attachments/assets/9e34088d-5bce-4e01-bc51-e09a2ee3d524)
